@@ -17,7 +17,7 @@
 }
 
 .google-search input[type="search"] {
-    width: 45rem;
+    width: 35rem;
     padding: 1rem 0 1rem 1rem;
     border-radius: 25px;
     border-color: rgb(0, 0, 0, 0.1);
@@ -43,7 +43,7 @@
     text-decoration: none;
     background-color: #4285f4;
     color: #fff;
-    padding: 0.5rem 1.3rem;
+    padding: 0.5rem 1rem;
 }
 
 /* Second Nav */
@@ -53,13 +53,15 @@
 }
 
 #nav-items .list-items {
-    display: flex;
-    align-items: center;
     position: relative;
     top: 0px;
     left: 180px;
+    width: 70%;
+    display: flex;
     list-style: none;
 }
+
+
 
 .list-items .special {
     color: #1A73E8;
@@ -67,12 +69,15 @@
 
 #nav-items .list-items .item-1 {
     border-bottom: 3px solid #1A73E8;
-    padding-right: 1rem;
+    padding-right: 0.5rem;
 }
 
+
+
 .list-items .list-item {
-    margin-right: 1.8rem;
+    margin-right: 1.7rem; 
     padding: 1rem 0 1rem 0;
+    font-size: 0.9rem;
 }
 
 .list-items a {
@@ -85,18 +90,20 @@
 }
 
 .list-items .ml {
-    margin-left: 1.7rem;
+    margin-left: 1rem;
 }
 
 /* Section */
 #search-results {
     position: relative;
-    left: 185px;
     margin-top: 1rem;
 }
 
-.container {
-    width: 35%;
+#search-results .container {
+    position: relative;
+    left: 185px; 
+    width: 37%;
+    margin-bottom: 1rem;
 }
 
 .result-amount {
@@ -125,3 +132,91 @@
 .result-info {
     margin-bottom: 2rem;
 }
+
+.related-title {
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.related-search {
+    margin-bottom: 0.3rem;
+}
+
+.related-search img {
+    float: left;
+    display: block;
+    margin-right: 0.5rem;
+}
+
+.related-search a {
+    text-decoration: none;
+    color: #1A0DAB;
+}
+
+
+#search-results .logos {
+    margin-left: 120px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.3rem;
+}
+
+.page-numbers {
+    display: flex;
+    list-style: none;
+    margin-left: 160px;
+}
+
+.page-numbers a {
+    text-decoration: none;
+    color: #1A0DAB;
+    margin-right: 0.75rem;
+}
+
+.page-numbers .next {
+    margin-left: 2rem;
+}
+
+/* Footer */
+#footer {
+    background-color: #f2f2f2;
+    padding-bottom: 1rem;
+}
+
+#footer .container {
+    position: relative;
+    top: 0;
+    left: 185px;
+    width: 70%;
+}
+
+#footer .location {
+    margin: 0 0 1rem 1.2rem;
+}
+
+.location span:first-of-type {
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.location span:last-of-type {
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+#footer .links {
+    display: flex;
+    list-style: none;
+}
+
+#footer .links .link {
+    font-size: 0.9rem;
+    margin-right: 1rem;
+}
+
+#footer .links a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+
