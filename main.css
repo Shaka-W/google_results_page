@@ -38,6 +38,7 @@
 
 .nav-top-right .list-item > span {
     margin-right: 1rem;
+    cursor: pointer;
 }
 
 .list-item .btn-sign-in {
