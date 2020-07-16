@@ -8,6 +8,7 @@
     display: flex;
     align-items: center;
     padding: 1rem 2rem 0 2rem;
+    
 }
 
 .google-search {
@@ -75,7 +76,7 @@
 
 
 .list-items .list-item {
-    margin-right: 1.7rem; 
+    margin-right: 1.3rem; 
     padding: 1rem 0 1rem 0;
     font-size: 0.9rem;
 }
@@ -90,7 +91,7 @@
 }
 
 .list-items .ml {
-    margin-left: 1rem;
+    margin-left: 4rem;
 }
 
 /* Section */
@@ -218,5 +219,3 @@
     text-decoration: none;
     color: rgba(0, 0, 0, 0.7);
 }
-
-
